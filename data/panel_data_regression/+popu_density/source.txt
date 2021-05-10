@@ -1,0 +1,4 @@
+before 2010
+https://www.census.gov/data/tables/time-series/dec/density-data-text.html     
+area:
+https://www.census.gov/geographies/reference-files/2010/geo/state-area.html

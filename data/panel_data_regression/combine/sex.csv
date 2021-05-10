@@ -1,0 +1,511 @@
+"","year","state","male_rate"
+"1",2010,"Alabama",0.482
+"2",2010,"Alaska",0.508
+"3",2010,"Arizona",0.492
+"4",2010,"Arkansas",0.488
+"5",2010,"California",0.493
+"6",2010,"Colorado",0.498
+"7",2010,"Connecticut",0.483
+"8",2010,"Delaware",0.481
+"9",2010,"District of Columbia",0.467
+"10",2010,"Florida",0.484
+"11",2010,"Georgia",0.483
+"12",2010,"Hawaii",0.489
+"13",2010,"Idaho",0.498
+"14",2010,"Illinois",0.489
+"15",2010,"Indiana",0.49
+"16",2010,"Iowa",0.494
+"17",2010,"Kansas",0.489
+"18",2010,"Kentucky",0.487
+"19",2010,"Louisiana",0.483
+"20",2010,"Maine",0.487
+"21",2010,"Maryland",0.48
+"22",2010,"Massachusetts",0.483
+"23",2010,"Michigan",0.489
+"24",2010,"Minnesota",0.496
+"25",2010,"Mississippi",0.479
+"26",2010,"Missouri",0.486
+"27",2010,"Montana",0.503
+"28",2010,"Nebraska",0.494
+"29",2010,"Nevada",0.501
+"30",2010,"New Hampshire",0.491
+"31",2010,"New Jersey",0.484
+"32",2010,"New Mexico",0.489
+"33",2010,"New York",0.482
+"34",2010,"North Carolina",0.481
+"35",2010,"North Dakota",0.506
+"36",2010,"Ohio",0.486
+"37",2010,"Oklahoma",0.487
+"38",2010,"Oregon",0.493
+"39",2010,"Pennsylvania",0.485
+"40",2010,"Rhode Island",0.483
+"41",2010,"South Carolina",0.479
+"42",2010,"South Dakota",0.501
+"43",2010,"Tennessee",0.483
+"44",2010,"Texas",0.49
+"45",2010,"Utah",0.5
+"46",2010,"Vermont",0.49
+"47",2010,"Virginia",0.483
+"48",2010,"Washington",0.494
+"49",2010,"West Virginia",0.489
+"50",2010,"Wisconsin",0.494
+"51",2010,"Wyoming",0.502
+"52",2011,"Alabama",0.478
+"53",2011,"Alaska",0.507
+"54",2011,"Arizona",0.492
+"55",2011,"Arkansas",0.491
+"56",2011,"California",0.494
+"57",2011,"Colorado",0.497
+"58",2011,"Connecticut",0.485
+"59",2011,"Delaware",0.48
+"60",2011,"District of Columbia",0.474
+"61",2011,"Florida",0.485
+"62",2011,"Georgia",0.484
+"63",2011,"Hawaii",0.487
+"64",2011,"Idaho",0.5
+"65",2011,"Illinois",0.488
+"66",2011,"Indiana",0.49
+"67",2011,"Iowa",0.494
+"68",2011,"Kansas",0.493
+"69",2011,"Kentucky",0.488
+"70",2011,"Louisiana",0.483
+"71",2011,"Maine",0.487
+"72",2011,"Maryland",0.48
+"73",2011,"Massachusetts",0.484
+"74",2011,"Michigan",0.488
+"75",2011,"Minnesota",0.495
+"76",2011,"Mississippi",0.482
+"77",2011,"Missouri",0.487
+"78",2011,"Montana",0.5
+"79",2011,"Nebraska",0.495
+"80",2011,"Nevada",0.5
+"81",2011,"New Hampshire",0.495
+"82",2011,"New Jersey",0.485
+"83",2011,"New Mexico",0.491
+"84",2011,"New York",0.482
+"85",2011,"North Carolina",0.48
+"86",2011,"North Dakota",0.502
+"87",2011,"Ohio",0.487
+"88",2011,"Oklahoma",0.49
+"89",2011,"Oregon",0.492
+"90",2011,"Pennsylvania",0.485
+"91",2011,"Rhode Island",0.482
+"92",2011,"South Carolina",0.48
+"93",2011,"South Dakota",0.495
+"94",2011,"Tennessee",0.484
+"95",2011,"Texas",0.491
+"96",2011,"Utah",0.501
+"97",2011,"Vermont",0.491
+"98",2011,"Virginia",0.485
+"99",2011,"Washington",0.494
+"100",2011,"West Virginia",0.491
+"101",2011,"Wisconsin",0.494
+"102",2011,"Wyoming",0.505
+"103",2012,"Alabama",0.48
+"104",2012,"Alaska",0.516
+"105",2012,"Arizona",0.492
+"106",2012,"Arkansas",0.488
+"107",2012,"California",0.493
+"108",2012,"Colorado",0.497
+"109",2012,"Connecticut",0.485
+"110",2012,"Delaware",0.483
+"111",2012,"District of Columbia",0.469
+"112",2012,"Florida",0.485
+"113",2012,"Georgia",0.483
+"114",2012,"Hawaii",0.494
+"115",2012,"Idaho",0.498
+"116",2012,"Illinois",0.488
+"117",2012,"Indiana",0.49
+"118",2012,"Iowa",0.495
+"119",2012,"Kansas",0.494
+"120",2012,"Kentucky",0.487
+"121",2012,"Louisiana",0.482
+"122",2012,"Maine",0.491
+"123",2012,"Maryland",0.48
+"124",2012,"Massachusetts",0.483
+"125",2012,"Michigan",0.489
+"126",2012,"Minnesota",0.496
+"127",2012,"Mississippi",0.477
+"128",2012,"Missouri",0.487
+"129",2012,"Montana",0.497
+"130",2012,"Nebraska",0.494
+"131",2012,"Nevada",0.502
+"132",2012,"New Hampshire",0.49
+"133",2012,"New Jersey",0.485
+"134",2012,"New Mexico",0.493
+"135",2012,"New York",0.483
+"136",2012,"North Carolina",0.482
+"137",2012,"North Dakota",0.512
+"138",2012,"Ohio",0.486
+"139",2012,"Oklahoma",0.49
+"140",2012,"Oregon",0.495
+"141",2012,"Pennsylvania",0.487
+"142",2012,"Rhode Island",0.483
+"143",2012,"South Carolina",0.48
+"144",2012,"South Dakota",0.499
+"145",2012,"Tennessee",0.484
+"146",2012,"Texas",0.492
+"147",2012,"Utah",0.502
+"148",2012,"Vermont",0.496
+"149",2012,"Virginia",0.482
+"150",2012,"Washington",0.495
+"151",2012,"West Virginia",0.49
+"152",2012,"Wisconsin",0.494
+"153",2012,"Wyoming",0.504
+"154",2013,"Alabama",0.481
+"155",2013,"Alaska",0.513
+"156",2013,"Arizona",0.492
+"157",2013,"Arkansas",0.491
+"158",2013,"California",0.494
+"159",2013,"Colorado",0.498
+"160",2013,"Connecticut",0.486
+"161",2013,"Delaware",0.482
+"162",2013,"District of Columbia",0.468
+"163",2013,"Florida",0.485
+"164",2013,"Georgia",0.483
+"165",2013,"Hawaii",0.489
+"166",2013,"Idaho",0.499
+"167",2013,"Illinois",0.489
+"168",2013,"Indiana",0.489
+"169",2013,"Iowa",0.494
+"170",2013,"Kansas",0.494
+"171",2013,"Kentucky",0.489
+"172",2013,"Louisiana",0.482
+"173",2013,"Maine",0.488
+"174",2013,"Maryland",0.483
+"175",2013,"Massachusetts",0.484
+"176",2013,"Michigan",0.489
+"177",2013,"Minnesota",0.493
+"178",2013,"Mississippi",0.48
+"179",2013,"Missouri",0.487
+"180",2013,"Montana",0.497
+"181",2013,"Nebraska",0.494
+"182",2013,"Nevada",0.499
+"183",2013,"New Hampshire",0.491
+"184",2013,"New Jersey",0.486
+"185",2013,"New Mexico",0.492
+"186",2013,"New York",0.484
+"187",2013,"North Carolina",0.482
+"188",2013,"North Dakota",0.507
+"189",2013,"Ohio",0.487
+"190",2013,"Oklahoma",0.49
+"191",2013,"Oregon",0.493
+"192",2013,"Pennsylvania",0.486
+"193",2013,"Rhode Island",0.49
+"194",2013,"South Carolina",0.48
+"195",2013,"South Dakota",0.502
+"196",2013,"Tennessee",0.486
+"197",2013,"Texas",0.492
+"198",2013,"Utah",0.502
+"199",2013,"Vermont",0.493
+"200",2013,"Virginia",0.484
+"201",2013,"Washington",0.496
+"202",2013,"West Virginia",0.491
+"203",2013,"Wisconsin",0.495
+"204",2013,"Wyoming",0.504
+"205",2014,"Alabama",0.482
+"206",2014,"Alaska",0.517
+"207",2014,"Arizona",0.49
+"208",2014,"Arkansas",0.487
+"209",2014,"California",0.493
+"210",2014,"Colorado",0.498
+"211",2014,"Connecticut",0.486
+"212",2014,"Delaware",0.482
+"213",2014,"District of Columbia",0.474
+"214",2014,"Florida",0.485
+"215",2014,"Georgia",0.482
+"216",2014,"Hawaii",0.491
+"217",2014,"Idaho",0.496
+"218",2014,"Illinois",0.488
+"219",2014,"Indiana",0.49
+"220",2014,"Iowa",0.497
+"221",2014,"Kansas",0.491
+"222",2014,"Kentucky",0.491
+"223",2014,"Louisiana",0.482
+"224",2014,"Maine",0.482
+"225",2014,"Maryland",0.482
+"226",2014,"Massachusetts",0.485
+"227",2014,"Michigan",0.489
+"228",2014,"Minnesota",0.495
+"229",2014,"Mississippi",0.481
+"230",2014,"Missouri",0.487
+"231",2014,"Montana",0.496
+"232",2014,"Nebraska",0.498
+"233",2014,"Nevada",0.499
+"234",2014,"New Hampshire",0.493
+"235",2014,"New Jersey",0.487
+"236",2014,"New Mexico",0.489
+"237",2014,"New York",0.484
+"238",2014,"North Carolina",0.481
+"239",2014,"North Dakota",0.508
+"240",2014,"Ohio",0.488
+"241",2014,"Oklahoma",0.489
+"242",2014,"Oregon",0.492
+"243",2014,"Pennsylvania",0.487
+"244",2014,"Rhode Island",0.484
+"245",2014,"South Carolina",0.481
+"246",2014,"South Dakota",0.5
+"247",2014,"Tennessee",0.484
+"248",2014,"Texas",0.491
+"249",2014,"Utah",0.5
+"250",2014,"Vermont",0.487
+"251",2014,"Virginia",0.484
+"252",2014,"Washington",0.497
+"253",2014,"West Virginia",0.492
+"254",2014,"Wisconsin",0.494
+"255",2014,"Wyoming",0.507
+"256",2015,"Alabama",0.481
+"257",2015,"Alaska",0.514
+"258",2015,"Arizona",0.49
+"259",2015,"Arkansas",0.486
+"260",2015,"California",0.493
+"261",2015,"Colorado",0.498
+"262",2015,"Connecticut",0.487
+"263",2015,"Delaware",0.479
+"264",2015,"District of Columbia",0.475
+"265",2015,"Florida",0.484
+"266",2015,"Georgia",0.482
+"267",2015,"Hawaii",0.49
+"268",2015,"Idaho",0.497
+"269",2015,"Illinois",0.487
+"270",2015,"Indiana",0.49
+"271",2015,"Iowa",0.495
+"272",2015,"Kansas",0.493
+"273",2015,"Kentucky",0.489
+"274",2015,"Louisiana",0.483
+"275",2015,"Maine",0.489
+"276",2015,"Maryland",0.48
+"277",2015,"Massachusetts",0.485
+"278",2015,"Michigan",0.489
+"279",2015,"Minnesota",0.497
+"280",2015,"Mississippi",0.478
+"281",2015,"Missouri",0.488
+"282",2015,"Montana",0.502
+"283",2015,"Nebraska",0.496
+"284",2015,"Nevada",0.497
+"285",2015,"New Hampshire",0.495
+"286",2015,"New Jersey",0.486
+"287",2015,"New Mexico",0.492
+"288",2015,"New York",0.484
+"289",2015,"North Carolina",0.483
+"290",2015,"North Dakota",0.509
+"291",2015,"Ohio",0.488
+"292",2015,"Oklahoma",0.491
+"293",2015,"Oregon",0.492
+"294",2015,"Pennsylvania",0.486
+"295",2015,"Rhode Island",0.484
+"296",2015,"South Carolina",0.482
+"297",2015,"South Dakota",0.501
+"298",2015,"Tennessee",0.484
+"299",2015,"Texas",0.491
+"300",2015,"Utah",0.502
+"301",2015,"Vermont",0.494
+"302",2015,"Virginia",0.483
+"303",2015,"Washington",0.497
+"304",2015,"West Virginia",0.49
+"305",2015,"Wisconsin",0.495
+"306",2015,"Wyoming",0.495
+"307",2016,"Alabama",0.481
+"308",2016,"Alaska",0.517
+"309",2016,"Arizona",0.492
+"310",2016,"Arkansas",0.488
+"311",2016,"California",0.494
+"312",2016,"Colorado",0.499
+"313",2016,"Connecticut",0.486
+"314",2016,"Delaware",0.48
+"315",2016,"District of Columbia",0.471
+"316",2016,"Florida",0.485
+"317",2016,"Georgia",0.481
+"318",2016,"Hawaii",0.492
+"319",2016,"Idaho",0.496
+"320",2016,"Illinois",0.488
+"321",2016,"Indiana",0.49
+"322",2016,"Iowa",0.495
+"323",2016,"Kansas",0.494
+"324",2016,"Kentucky",0.488
+"325",2016,"Louisiana",0.483
+"326",2016,"Maine",0.486
+"327",2016,"Maryland",0.48
+"328",2016,"Massachusetts",0.486
+"329",2016,"Michigan",0.489
+"330",2016,"Minnesota",0.496
+"331",2016,"Mississippi",0.476
+"332",2016,"Missouri",0.49
+"333",2016,"Montana",0.502
+"334",2016,"Nebraska",0.496
+"335",2016,"Nevada",0.498
+"336",2016,"New Hampshire",0.499
+"337",2016,"New Jersey",0.486
+"338",2016,"New Mexico",0.489
+"339",2016,"New York",0.484
+"340",2016,"North Carolina",0.481
+"341",2016,"North Dakota",0.512
+"342",2016,"Ohio",0.489
+"343",2016,"Oklahoma",0.491
+"344",2016,"Oregon",0.495
+"345",2016,"Pennsylvania",0.488
+"346",2016,"Rhode Island",0.484
+"347",2016,"South Carolina",0.48
+"348",2016,"South Dakota",0.502
+"349",2016,"Tennessee",0.484
+"350",2016,"Texas",0.492
+"351",2016,"Utah",0.502
+"352",2016,"Vermont",0.492
+"353",2016,"Virginia",0.485
+"354",2016,"Washington",0.495
+"355",2016,"West Virginia",0.492
+"356",2016,"Wisconsin",0.494
+"357",2016,"Wyoming",0.505
+"358",2017,"Alabama",0.482
+"359",2017,"Alaska",0.513
+"360",2017,"Arizona",0.492
+"361",2017,"Arkansas",0.489
+"362",2017,"California",0.494
+"363",2017,"Colorado",0.499
+"364",2017,"Connecticut",0.486
+"365",2017,"Delaware",0.481
+"366",2017,"District of Columbia",0.471
+"367",2017,"Florida",0.485
+"368",2017,"Georgia",0.481
+"369",2017,"Hawaii",0.488
+"370",2017,"Idaho",0.501
+"371",2017,"Illinois",0.489
+"372",2017,"Indiana",0.49
+"373",2017,"Iowa",0.493
+"374",2017,"Kansas",0.495
+"375",2017,"Kentucky",0.491
+"376",2017,"Louisiana",0.482
+"377",2017,"Maine",0.489
+"378",2017,"Maryland",0.482
+"379",2017,"Massachusetts",0.486
+"380",2017,"Michigan",0.49
+"381",2017,"Minnesota",0.496
+"382",2017,"Mississippi",0.48
+"383",2017,"Missouri",0.488
+"384",2017,"Montana",0.496
+"385",2017,"Nebraska",0.498
+"386",2017,"Nevada",0.497
+"387",2017,"New Hampshire",0.496
+"388",2017,"New Jersey",0.486
+"389",2017,"New Mexico",0.493
+"390",2017,"New York",0.484
+"391",2017,"North Carolina",0.482
+"392",2017,"North Dakota",0.51
+"393",2017,"Ohio",0.487
+"394",2017,"Oklahoma",0.489
+"395",2017,"Oregon",0.494
+"396",2017,"Pennsylvania",0.488
+"397",2017,"Rhode Island",0.485
+"398",2017,"South Carolina",0.48
+"399",2017,"South Dakota",0.502
+"400",2017,"Tennessee",0.484
+"401",2017,"Texas",0.492
+"402",2017,"Utah",0.502
+"403",2017,"Vermont",0.493
+"404",2017,"Virginia",0.484
+"405",2017,"Washington",0.496
+"406",2017,"West Virginia",0.49
+"407",2017,"Wisconsin",0.495
+"408",2017,"Wyoming",0.509
+"409",2018,"Alabama",0.481
+"410",2018,"Alaska",0.503
+"411",2018,"Arizona",0.492
+"412",2018,"Arkansas",0.486
+"413",2018,"California",0.494
+"414",2018,"Colorado",0.498
+"415",2018,"Connecticut",0.485
+"416",2018,"Delaware",0.479
+"417",2018,"District of Columbia",0.472
+"418",2018,"Florida",0.484
+"419",2018,"Georgia",0.481
+"420",2018,"Hawaii",0.49
+"421",2018,"Idaho",0.499
+"422",2018,"Illinois",0.49
+"423",2018,"Indiana",0.489
+"424",2018,"Iowa",0.496
+"425",2018,"Kansas",0.495
+"426",2018,"Kentucky",0.487
+"427",2018,"Louisiana",0.482
+"428",2018,"Maine",0.485
+"429",2018,"Maryland",0.481
+"430",2018,"Massachusetts",0.486
+"431",2018,"Michigan",0.49
+"432",2018,"Minnesota",0.499
+"433",2018,"Mississippi",0.478
+"434",2018,"Missouri",0.487
+"435",2018,"Montana",0.505
+"436",2018,"Nebraska",0.496
+"437",2018,"Nevada",0.498
+"438",2018,"New Hampshire",0.494
+"439",2018,"New Jersey",0.486
+"440",2018,"New Mexico",0.491
+"441",2018,"New York",0.484
+"442",2018,"North Carolina",0.481
+"443",2018,"North Dakota",0.509
+"444",2018,"Ohio",0.489
+"445",2018,"Oklahoma",0.49
+"446",2018,"Oregon",0.494
+"447",2018,"Pennsylvania",0.487
+"448",2018,"Rhode Island",0.486
+"449",2018,"South Carolina",0.48
+"450",2018,"South Dakota",0.501
+"451",2018,"Tennessee",0.485
+"452",2018,"Texas",0.492
+"453",2018,"Utah",0.503
+"454",2018,"Vermont",0.494
+"455",2018,"Virginia",0.485
+"456",2018,"Washington",0.497
+"457",2018,"West Virginia",0.493
+"458",2018,"Wisconsin",0.495
+"459",2018,"Wyoming",0.504
+"460",2019,"Alabama",0.481
+"461",2019,"Alaska",0.507
+"462",2019,"Arizona",0.493
+"463",2019,"Arkansas",0.484
+"464",2019,"California",0.494
+"465",2019,"Colorado",0.501
+"466",2019,"Connecticut",0.487
+"467",2019,"Delaware",0.482
+"468",2019,"District of Columbia",0.475
+"469",2019,"Florida",0.485
+"470",2019,"Georgia",0.482
+"471",2019,"Hawaii",0.488
+"472",2019,"Idaho",0.499
+"473",2019,"Illinois",0.487
+"474",2019,"Indiana",0.49
+"475",2019,"Iowa",0.495
+"476",2019,"Kansas",0.49
+"477",2019,"Kentucky",0.49
+"478",2019,"Louisiana",0.481
+"479",2019,"Maine",0.484
+"480",2019,"Maryland",0.48
+"481",2019,"Massachusetts",0.486
+"482",2019,"Michigan",0.49
+"483",2019,"Minnesota",0.496
+"484",2019,"Mississippi",0.475
+"485",2019,"Missouri",0.487
+"486",2019,"Montana",0.499
+"487",2019,"Nebraska",0.497
+"488",2019,"Nevada",0.497
+"489",2019,"New Hampshire",0.494
+"490",2019,"New Jersey",0.487
+"491",2019,"New Mexico",0.488
+"492",2019,"New York",0.484
+"493",2019,"North Carolina",0.48
+"494",2019,"North Dakota",0.505
+"495",2019,"Ohio",0.489
+"496",2019,"Oklahoma",0.49
+"497",2019,"Oregon",0.492
+"498",2019,"Pennsylvania",0.487
+"499",2019,"Rhode Island",0.489
+"500",2019,"South Carolina",0.477
+"501",2019,"South Dakota",0.504
+"502",2019,"Tennessee",0.484
+"503",2019,"Texas",0.491
+"504",2019,"Utah",0.5
+"505",2019,"Vermont",0.494
+"506",2019,"Virginia",0.484
+"507",2019,"Washington",0.497
+"508",2019,"West Virginia",0.491
+"509",2019,"Wisconsin",0.493
+"510",2019,"Wyoming",0.509

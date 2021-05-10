@@ -1,0 +1,48 @@
+---
+title: "regression"
+author: "Ruofan Chen"
+date: "4/17/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+for states:i represents states.i from 1 to 52
+$$y_{it}=\beta_0+x_{1,i,t} \beta_1+...+x_{6,i,t} \beta_6+\epsilon_{i,t}$$
+for each states:
+$$y_t=\beta_0+x_{1,t} \beta_1+...+x_{6,t} \beta_6+\epsilon_t$$
+
+where $\epsilon_t$ has auto-correlation.  
+  
+if no auto-correlation,  
+  
+
+use 
+$$Var(\hat \beta)=(X^TX)^{-1}X^T \hat\Sigma(X^TX)^{-1}$$ where $\hat\Sigma=MSE$
+
+if has auto-correlation,  
+  
+use
+$$Var(\hat \beta)=(X^TX)^{-1}(\Sigma^{i=1}_T x_t x_t^T+\Sigma^L_{l=1} \Sigma^T_{t=l+1}(1-\frac{l}{L+1})e_t e_{t-l}(x_t x_{t-l}^T+x_{t-l} x_t^T))(X^TX)^{-1}$$
+
+
+
+$$H_0:\hat \beta_j=0$$
+
+$$t=\hat \beta_j/se(\hat \beta_j)$$
+
+$$y_{t}=x_{t}^T \beta_t +\epsilon_{t}$$ where $\beta_t=(\beta_{0,t},\beta_{1,t},...,\beta_{p,t})$, p is the number of predictors.  
+  
+do the model: $$\beta_{p,t}=C_p+\epsilon_t$$ 
+if $\epsilon_t$ has auto-correlation, use
+Newey West method:
+
+
+
+
+
+
+
+

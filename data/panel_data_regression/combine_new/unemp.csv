@@ -1,0 +1,1225 @@
+"","year","region","unemp_rate"
+"1",1995,"alabama",5.6
+"2",1995,"alaska",7.9
+"3",1995,"arizona",4.4
+"4",1995,"arkansas",4.5
+"5",1995,"california",7.7
+"6",1995,"colorado",3.9
+"7",1995,"connecticut",5.1
+"8",1995,"delaware",4.7
+"9",1995,"district of columbia",8.6
+"10",1995,"florida",6.2
+"11",1995,"georgia",4.6
+"12",1995,"hawaii",5.5
+"13",1995,"idaho",5.4
+"14",1995,"illinois",5.7
+"15",1995,"indiana",4.2
+"16",1995,"iowa",3.3
+"17",1995,"kansas",3.7
+"18",1995,"kentucky",4.9
+"19",1995,"louisiana",6.5
+"20",1995,"maine",5.1
+"21",1995,"maryland",4.8
+"22",1995,"massachusetts",5.2
+"23",1995,"michigan",5.3
+"24",1995,"minnesota",3.4
+"25",1995,"mississippi",5.8
+"26",1995,"missouri",3.6
+"27",1995,"montana",5.7
+"28",1995,"nebraska",2.6
+"29",1995,"nevada",5
+"30",1995,"new hampshire",3.2
+"31",1995,"new jersey",7.3
+"32",1995,"new mexico",6.2
+"33",1995,"new york",6.4
+"34",1995,"north carolina",5.1
+"35",1995,"north dakota",2.9
+"36",1995,"ohio",5.1
+"37",1995,"oklahoma",4.4
+"38",1995,"oregon",4.9
+"39",1995,"pennsylvania",6.3
+"40",1995,"rhode island",6.4
+"41",1995,"south carolina",5.4
+"42",1995,"south dakota",2.9
+"43",1995,"tennessee",5.1
+"44",1995,"texas",6.4
+"45",1995,"utah",2.8
+"46",1995,"vermont",4.1
+"47",1995,"virginia",4.3
+"48",1995,"washington",5.8
+"49",1995,"west virginia",7.6
+"50",1995,"wisconsin",3.7
+"51",1995,"wyoming",4
+"52",1996,"alabama",5
+"53",1996,"alaska",7.5
+"54",1996,"arizona",5.2
+"55",1996,"arkansas",5.2
+"56",1996,"california",6.9
+"57",1996,"colorado",3.7
+"58",1996,"connecticut",5.1
+"59",1996,"delaware",5.4
+"60",1996,"district of columbia",7.3
+"61",1996,"florida",4.9
+"62",1996,"georgia",4.5
+"63",1996,"hawaii",6
+"64",1996,"idaho",5
+"65",1996,"illinois",5
+"66",1996,"indiana",3.6
+"67",1996,"iowa",3.4
+"68",1996,"kansas",4
+"69",1996,"kentucky",5
+"70",1996,"louisiana",6.1
+"71",1996,"maine",4.2
+"72",1996,"maryland",4.4
+"73",1996,"massachusetts",3.9
+"74",1996,"michigan",4.7
+"75",1996,"minnesota",3.7
+"76",1996,"mississippi",5.5
+"77",1996,"missouri",4.5
+"78",1996,"montana",4.6
+"79",1996,"nebraska",2.7
+"80",1996,"nevada",5
+"81",1996,"new hampshire",3.9
+"82",1996,"new jersey",6.2
+"83",1996,"new mexico",7.1
+"84",1996,"new york",6
+"85",1996,"north carolina",4
+"86",1996,"north dakota",2.7
+"87",1996,"ohio",5
+"88",1996,"oklahoma",4.3
+"89",1996,"oregon",5.5
+"90",1996,"pennsylvania",4.7
+"91",1996,"rhode island",4.9
+"92",1996,"south carolina",6.1
+"93",1996,"south dakota",2.9
+"94",1996,"tennessee",5.1
+"95",1996,"texas",5.5
+"96",1996,"utah",3
+"97",1996,"vermont",4.5
+"98",1996,"virginia",4
+"99",1996,"washington",5.8
+"100",1996,"west virginia",7.2
+"101",1996,"wisconsin",3.1
+"102",1996,"wyoming",4.6
+"103",1997,"alabama",5.1
+"104",1997,"alaska",7.9
+"105",1997,"arizona",4.6
+"106",1997,"arkansas",5.3
+"107",1997,"california",6.3
+"108",1997,"colorado",3.3
+"109",1997,"connecticut",5.1
+"110",1997,"delaware",4
+"111",1997,"district of columbia",7.9
+"112",1997,"florida",4.8
+"113",1997,"georgia",4.5
+"114",1997,"hawaii",6.4
+"115",1997,"idaho",5.3
+"116",1997,"illinois",4.7
+"117",1997,"indiana",3.5
+"118",1997,"iowa",3.3
+"119",1997,"kansas",3.8
+"120",1997,"kentucky",5.4
+"121",1997,"louisiana",6.1
+"122",1997,"maine",5.4
+"123",1997,"maryland",5.1
+"124",1997,"massachusetts",4
+"125",1997,"michigan",4.2
+"126",1997,"minnesota",3.3
+"127",1997,"mississippi",5.7
+"128",1997,"missouri",4.2
+"129",1997,"montana",5.4
+"130",1997,"nebraska",2.6
+"131",1997,"nevada",4.1
+"132",1997,"new hampshire",3.1
+"133",1997,"new jersey",5.1
+"134",1997,"new mexico",6.2
+"135",1997,"new york",6.4
+"136",1997,"north carolina",3.6
+"137",1997,"north dakota",2.5
+"138",1997,"ohio",4.6
+"139",1997,"oklahoma",4.1
+"140",1997,"oregon",5.8
+"141",1997,"pennsylvania",5.2
+"142",1997,"rhode island",5.3
+"143",1997,"south carolina",4.5
+"144",1997,"south dakota",3.1
+"145",1997,"tennessee",5.4
+"146",1997,"texas",5.4
+"147",1997,"utah",3.1
+"148",1997,"vermont",4
+"149",1997,"virginia",4
+"150",1997,"washington",4.8
+"151",1997,"west virginia",6.9
+"152",1997,"wisconsin",3.7
+"153",1997,"wyoming",5.1
+"154",1998,"alabama",4.2
+"155",1998,"alaska",5.8
+"156",1998,"arizona",4.1
+"157",1998,"arkansas",5.5
+"158",1998,"california",5.9
+"159",1998,"colorado",3.8
+"160",1998,"connecticut",3.4
+"161",1998,"delaware",3.8
+"162",1998,"district of columbia",8.8
+"163",1998,"florida",4.3
+"164",1998,"georgia",4.2
+"165",1998,"hawaii",6.2
+"166",1998,"idaho",5
+"167",1998,"illinois",4.5
+"168",1998,"indiana",3.1
+"169",1998,"iowa",2.8
+"170",1998,"kansas",3.8
+"171",1998,"kentucky",4.6
+"172",1998,"louisiana",5.7
+"173",1998,"maine",4.4
+"174",1998,"maryland",4.6
+"175",1998,"massachusetts",3.3
+"176",1998,"michigan",3.9
+"177",1998,"minnesota",2.5
+"178",1998,"mississippi",5.4
+"179",1998,"missouri",4.2
+"180",1998,"montana",5.6
+"181",1998,"nebraska",2.7
+"182",1998,"nevada",4.3
+"183",1998,"new hampshire",2.9
+"184",1998,"new jersey",4.6
+"185",1998,"new mexico",6.2
+"186",1998,"new york",5.6
+"187",1998,"north carolina",3.5
+"188",1998,"north dakota",3.2
+"189",1998,"ohio",4.3
+"190",1998,"oklahoma",4.5
+"191",1998,"oregon",5.6
+"192",1998,"pennsylvania",4.6
+"193",1998,"rhode island",4.9
+"194",1998,"south carolina",3.8
+"195",1998,"south dakota",2.9
+"196",1998,"tennessee",4.2
+"197",1998,"texas",4.8
+"198",1998,"utah",3.8
+"199",1998,"vermont",3.4
+"200",1998,"virginia",2.9
+"201",1998,"washington",4.8
+"202",1998,"west virginia",6.6
+"203",1998,"wisconsin",3.4
+"204",1998,"wyoming",4.8
+"205",1999,"alabama",4.8
+"206",1999,"alaska",6.4
+"207",1999,"arizona",4.4
+"208",1999,"arkansas",4.5
+"209",1999,"california",5.2
+"210",1999,"colorado",2.9
+"211",1999,"connecticut",3.2
+"212",1999,"delaware",3.5
+"213",1999,"district of columbia",6.3
+"214",1999,"florida",3.9
+"215",1999,"georgia",4
+"216",1999,"hawaii",5.6
+"217",1999,"idaho",5.2
+"218",1999,"illinois",4.3
+"219",1999,"indiana",3
+"220",1999,"iowa",2.5
+"221",1999,"kansas",3
+"222",1999,"kentucky",4.5
+"223",1999,"louisiana",5.1
+"224",1999,"maine",4.1
+"225",1999,"maryland",3.5
+"226",1999,"massachusetts",3.2
+"227",1999,"michigan",3.8
+"228",1999,"minnesota",2.8
+"229",1999,"mississippi",5.1
+"230",1999,"missouri",3.4
+"231",1999,"montana",5.2
+"232",1999,"nebraska",2.9
+"233",1999,"nevada",4.4
+"234",1999,"new hampshire",2.7
+"235",1999,"new jersey",4.6
+"236",1999,"new mexico",5.6
+"237",1999,"new york",5.2
+"238",1999,"north carolina",3.2
+"239",1999,"north dakota",3.4
+"240",1999,"ohio",4.3
+"241",1999,"oklahoma",3.4
+"242",1999,"oregon",5.7
+"243",1999,"pennsylvania",4.4
+"244",1999,"rhode island",4.1
+"245",1999,"south carolina",4.5
+"246",1999,"south dakota",2.9
+"247",1999,"tennessee",4
+"248",1999,"texas",4.6
+"249",1999,"utah",3.7
+"250",1999,"vermont",3
+"251",1999,"virginia",2.8
+"252",1999,"washington",4.7
+"253",1999,"west virginia",6.6
+"254",1999,"wisconsin",3
+"255",1999,"wyoming",4.9
+"256",2000,"alabama",4.6
+"257",2000,"alaska",6.6
+"258",2000,"arizona",3.9
+"259",2000,"arkansas",4.4
+"260",2000,"california",4.9
+"261",2000,"colorado",2.7
+"262",2000,"connecticut",2.3
+"263",2000,"delaware",4
+"264",2000,"district of columbia",5.8
+"265",2000,"florida",3.6
+"266",2000,"georgia",3.7
+"267",2000,"hawaii",4.3
+"268",2000,"idaho",4.9
+"269",2000,"illinois",4.4
+"270",2000,"indiana",3.2
+"271",2000,"iowa",2.6
+"272",2000,"kansas",3.7
+"273",2000,"kentucky",4.1
+"274",2000,"louisiana",5.5
+"275",2000,"maine",3.5
+"276",2000,"maryland",3.9
+"277",2000,"massachusetts",2.6
+"278",2000,"michigan",3.6
+"279",2000,"minnesota",3.3
+"280",2000,"mississippi",5.7
+"281",2000,"missouri",3.5
+"282",2000,"montana",4.9
+"283",2000,"nebraska",3
+"284",2000,"nevada",4.1
+"285",2000,"new hampshire",2.8
+"286",2000,"new jersey",3.8
+"287",2000,"new mexico",4.9
+"288",2000,"new york",4.6
+"289",2000,"north carolina",3.6
+"290",2000,"north dakota",3
+"291",2000,"ohio",4.1
+"292",2000,"oklahoma",3
+"293",2000,"oregon",4.9
+"294",2000,"pennsylvania",4.2
+"295",2000,"rhode island",4.1
+"296",2000,"south carolina",3.9
+"297",2000,"south dakota",2.3
+"298",2000,"tennessee",3.9
+"299",2000,"texas",4.2
+"300",2000,"utah",3.2
+"301",2000,"vermont",2.9
+"302",2000,"virginia",2.2
+"303",2000,"washington",5.2
+"304",2000,"west virginia",5.5
+"305",2000,"wisconsin",3.5
+"306",2000,"wyoming",3.9
+"307",2001,"alabama",5.3
+"308",2001,"alaska",6.3
+"309",2001,"arizona",4.7
+"310",2001,"arkansas",5.1
+"311",2001,"california",5.3
+"312",2001,"colorado",3.7
+"313",2001,"connecticut",3.3
+"314",2001,"delaware",3.5
+"315",2001,"district of columbia",6.5
+"316",2001,"florida",4.8
+"317",2001,"georgia",4
+"318",2001,"hawaii",4.6
+"319",2001,"idaho",5
+"320",2001,"illinois",5.4
+"321",2001,"indiana",4.4
+"322",2001,"iowa",3.3
+"323",2001,"kansas",4.3
+"324",2001,"kentucky",5.5
+"325",2001,"louisiana",6
+"326",2001,"maine",4
+"327",2001,"maryland",4.1
+"328",2001,"massachusetts",3.7
+"329",2001,"michigan",5.3
+"330",2001,"minnesota",3.7
+"331",2001,"mississippi",5.5
+"332",2001,"missouri",4.7
+"333",2001,"montana",4.6
+"334",2001,"nebraska",3.1
+"335",2001,"nevada",5.3
+"336",2001,"new hampshire",3.5
+"337",2001,"new jersey",4.2
+"338",2001,"new mexico",4.8
+"339",2001,"new york",4.9
+"340",2001,"north carolina",5.5
+"341",2001,"north dakota",2.8
+"342",2001,"ohio",4.3
+"343",2001,"oklahoma",3.8
+"344",2001,"oregon",6.3
+"345",2001,"pennsylvania",4.7
+"346",2001,"rhode island",4.7
+"347",2001,"south carolina",5.4
+"348",2001,"south dakota",3.3
+"349",2001,"tennessee",4.5
+"350",2001,"texas",4.9
+"351",2001,"utah",4.4
+"352",2001,"vermont",3.6
+"353",2001,"virginia",3.5
+"354",2001,"washington",6.4
+"355",2001,"west virginia",4.9
+"356",2001,"wisconsin",4.6
+"357",2001,"wyoming",3.9
+"358",2002,"alabama",5.9
+"359",2002,"alaska",7.7
+"360",2002,"arizona",6.2
+"361",2002,"arkansas",5.4
+"362",2002,"california",6.7
+"363",2002,"colorado",5.7
+"364",2002,"connecticut",4.3
+"365",2002,"delaware",4.2
+"366",2002,"district of columbia",6.4
+"367",2002,"florida",5.5
+"368",2002,"georgia",5.1
+"369",2002,"hawaii",4.2
+"370",2002,"idaho",5.8
+"371",2002,"illinois",6.5
+"372",2002,"indiana",5.1
+"373",2002,"iowa",4
+"374",2002,"kansas",5.1
+"375",2002,"kentucky",5.6
+"376",2002,"louisiana",6.1
+"377",2002,"maine",4.4
+"378",2002,"maryland",4.4
+"379",2002,"massachusetts",5.3
+"380",2002,"michigan",6.2
+"381",2002,"minnesota",4.4
+"382",2002,"mississippi",6.8
+"383",2002,"missouri",5.5
+"384",2002,"montana",4.6
+"385",2002,"nebraska",3.6
+"386",2002,"nevada",5.5
+"387",2002,"new hampshire",4.7
+"388",2002,"new jersey",5.8
+"389",2002,"new mexico",5.4
+"390",2002,"new york",6.1
+"391",2002,"north carolina",6.7
+"392",2002,"north dakota",4
+"393",2002,"ohio",5.7
+"394",2002,"oklahoma",4.5
+"395",2002,"oregon",7.5
+"396",2002,"pennsylvania",5.7
+"397",2002,"rhode island",5.1
+"398",2002,"south carolina",6
+"399",2002,"south dakota",3.1
+"400",2002,"tennessee",5.1
+"401",2002,"texas",6.3
+"402",2002,"utah",6.1
+"403",2002,"vermont",3.7
+"404",2002,"virginia",4.1
+"405",2002,"washington",7.3
+"406",2002,"west virginia",6.1
+"407",2002,"wisconsin",5.5
+"408",2002,"wyoming",4.2
+"409",2003,"alabama",5.8
+"410",2003,"alaska",7.7
+"411",2003,"arizona",4.8
+"412",2003,"arkansas",5.5
+"413",2003,"california",6.4
+"414",2003,"colorado",5.8
+"415",2003,"connecticut",5
+"416",2003,"delaware",4.1
+"417",2003,"district of columbia",6.6
+"418",2003,"florida",4.7
+"419",2003,"georgia",4.1
+"420",2003,"hawaii",4.1
+"421",2003,"idaho",4.8
+"422",2003,"illinois",6.4
+"423",2003,"indiana",5
+"424",2003,"iowa",4.4
+"425",2003,"kansas",4.8
+"426",2003,"kentucky",5.4
+"427",2003,"louisiana",5.8
+"428",2003,"maine",5
+"429",2003,"maryland",4.4
+"430",2003,"massachusetts",5.7
+"431",2003,"michigan",7.2
+"432",2003,"minnesota",4.7
+"433",2003,"mississippi",5
+"434",2003,"missouri",5
+"435",2003,"montana",4.5
+"436",2003,"nebraska",3.7
+"437",2003,"nevada",4.4
+"438",2003,"new hampshire",4.1
+"439",2003,"new jersey",5.3
+"440",2003,"new mexico",5.7
+"441",2003,"new york",6.2
+"442",2003,"north carolina",6.1
+"443",2003,"north dakota",3.2
+"444",2003,"ohio",6
+"445",2003,"oklahoma",5.1
+"446",2003,"oregon",7.2
+"447",2003,"pennsylvania",5.1
+"448",2003,"rhode island",5
+"449",2003,"south carolina",6.1
+"450",2003,"south dakota",3.4
+"451",2003,"tennessee",5.7
+"452",2003,"texas",6.4
+"453",2003,"utah",4.7
+"454",2003,"vermont",4
+"455",2003,"virginia",3.6
+"456",2003,"washington",6.8
+"457",2003,"west virginia",5.3
+"458",2003,"wisconsin",5.2
+"459",2003,"wyoming",4
+"460",2004,"alabama",5.4
+"461",2004,"alaska",7.3
+"462",2004,"arizona",4.2
+"463",2004,"arkansas",5.6
+"464",2004,"california",5.8
+"465",2004,"colorado",5.1
+"466",2004,"connecticut",4.3
+"467",2004,"delaware",4.1
+"468",2004,"district of columbia",9
+"469",2004,"florida",4.5
+"470",2004,"georgia",4.4
+"471",2004,"hawaii",3
+"472",2004,"idaho",4
+"473",2004,"illinois",5.8
+"474",2004,"indiana",5.1
+"475",2004,"iowa",4.7
+"476",2004,"kansas",4.6
+"477",2004,"kentucky",4.5
+"478",2004,"louisiana",5.6
+"479",2004,"maine",4.7
+"480",2004,"maryland",4
+"481",2004,"massachusetts",4.6
+"482",2004,"michigan",7.3
+"483",2004,"minnesota",4.4
+"484",2004,"mississippi",6.4
+"485",2004,"missouri",5.5
+"486",2004,"montana",3.7
+"487",2004,"nebraska",3.6
+"488",2004,"nevada",3.8
+"489",2004,"new hampshire",3.3
+"490",2004,"new jersey",4.2
+"491",2004,"new mexico",5.2
+"492",2004,"new york",5.3
+"493",2004,"north carolina",5.2
+"494",2004,"north dakota",3.2
+"495",2004,"ohio",5.9
+"496",2004,"oklahoma",4.2
+"497",2004,"oregon",6.8
+"498",2004,"pennsylvania",5.6
+"499",2004,"rhode island",4.6
+"500",2004,"south carolina",6.7
+"501",2004,"south dakota",3.3
+"502",2004,"tennessee",5.2
+"503",2004,"texas",5.8
+"504",2004,"utah",4.4
+"505",2004,"vermont",3.4
+"506",2004,"virginia",3.3
+"507",2004,"washington",5.8
+"508",2004,"west virginia",4.9
+"509",2004,"wisconsin",4.6
+"510",2004,"wyoming",3.3
+"511",2005,"alabama",3.5
+"512",2005,"alaska",6.9
+"513",2005,"arizona",4.6
+"514",2005,"arkansas",4.5
+"515",2005,"california",5.1
+"516",2005,"colorado",4.6
+"517",2005,"connecticut",4.8
+"518",2005,"delaware",4.4
+"519",2005,"district of columbia",6
+"520",2005,"florida",3.3
+"521",2005,"georgia",5.2
+"522",2005,"hawaii",2.7
+"523",2005,"idaho",3.4
+"524",2005,"illinois",5.5
+"525",2005,"indiana",5.5
+"526",2005,"iowa",4.5
+"527",2005,"kansas",4.9
+"528",2005,"kentucky",6.3
+"529",2005,"louisiana",6.4
+"530",2005,"maine",4.8
+"531",2005,"maryland",3.9
+"532",2005,"massachusetts",4.9
+"533",2005,"michigan",6.7
+"534",2005,"minnesota",4.1
+"535",2005,"mississippi",9.9
+"536",2005,"missouri",5.1
+"537",2005,"montana",3.7
+"538",2005,"nebraska",3.7
+"539",2005,"nevada",3.8
+"540",2005,"new hampshire",3.5
+"541",2005,"new jersey",4.7
+"542",2005,"new mexico",4.8
+"543",2005,"new york",5.1
+"544",2005,"north carolina",4.9
+"545",2005,"north dakota",3.3
+"546",2005,"ohio",5.9
+"547",2005,"oklahoma",4.1
+"548",2005,"oregon",5.7
+"549",2005,"pennsylvania",4.9
+"550",2005,"rhode island",5.2
+"551",2005,"south carolina",7
+"552",2005,"south dakota",3.9
+"553",2005,"tennessee",5.4
+"554",2005,"texas",5.1
+"555",2005,"utah",3.8
+"556",2005,"vermont",3.6
+"557",2005,"virginia",3.3
+"558",2005,"washington",5.3
+"559",2005,"west virginia",4.7
+"560",2005,"wisconsin",4.8
+"561",2005,"wyoming",3.2
+"562",2006,"alabama",3.6
+"563",2006,"alaska",6.7
+"564",2006,"arizona",4.1
+"565",2006,"arkansas",5.1
+"566",2006,"california",4.8
+"567",2006,"colorado",4
+"568",2006,"connecticut",4.2
+"569",2006,"delaware",3.4
+"570",2006,"district of columbia",6.3
+"571",2006,"florida",3.3
+"572",2006,"georgia",4.6
+"573",2006,"hawaii",2
+"574",2006,"idaho",3.2
+"575",2006,"illinois",4.1
+"576",2006,"indiana",4.8
+"577",2006,"iowa",3.5
+"578",2006,"kansas",4.5
+"579",2006,"kentucky",5.2
+"580",2006,"louisiana",4.3
+"581",2006,"maine",4.7
+"582",2006,"maryland",3.9
+"583",2006,"massachusetts",5.3
+"584",2006,"michigan",7.1
+"585",2006,"minnesota",4.2
+"586",2006,"mississippi",7.5
+"587",2006,"missouri",4.9
+"588",2006,"montana",2.9
+"589",2006,"nebraska",3.1
+"590",2006,"nevada",4.4
+"591",2006,"new hampshire",3.5
+"592",2006,"new jersey",4.2
+"593",2006,"new mexico",3.8
+"594",2006,"new york",4
+"595",2006,"north carolina",4.9
+"596",2006,"north dakota",3.2
+"597",2006,"ohio",5.6
+"598",2006,"oklahoma",3.8
+"599",2006,"oregon",5.4
+"600",2006,"pennsylvania",4.6
+"601",2006,"rhode island",5.2
+"602",2006,"south carolina",6.6
+"603",2006,"south dakota",3.2
+"604",2006,"tennessee",4.7
+"605",2006,"texas",4.5
+"606",2006,"utah",2.6
+"607",2006,"vermont",3.8
+"608",2006,"virginia",2.9
+"609",2006,"washington",5
+"610",2006,"west virginia",5.1
+"611",2006,"wisconsin",4.9
+"612",2006,"wyoming",3
+"613",2007,"alabama",4
+"614",2007,"alaska",6.5
+"615",2007,"arizona",4.7
+"616",2007,"arkansas",5.9
+"617",2007,"california",6.1
+"618",2007,"colorado",4.5
+"619",2007,"connecticut",5
+"620",2007,"delaware",3.8
+"621",2007,"district of columbia",6.1
+"622",2007,"florida",4.7
+"623",2007,"georgia",4.8
+"624",2007,"hawaii",3.2
+"625",2007,"idaho",3
+"626",2007,"illinois",5.5
+"627",2007,"indiana",4.6
+"628",2007,"iowa",4
+"629",2007,"kansas",4.4
+"630",2007,"kentucky",5.7
+"631",2007,"louisiana",4.2
+"632",2007,"maine",5.1
+"633",2007,"maryland",3.8
+"634",2007,"massachusetts",4.5
+"635",2007,"michigan",7.6
+"636",2007,"minnesota",4.9
+"637",2007,"mississippi",6.8
+"638",2007,"missouri",5.5
+"639",2007,"montana",3.6
+"640",2007,"nebraska",3.2
+"641",2007,"nevada",5.8
+"642",2007,"new hampshire",3.6
+"643",2007,"new jersey",4.5
+"644",2007,"new mexico",3.7
+"645",2007,"new york",4.9
+"646",2007,"north carolina",5
+"647",2007,"north dakota",3.3
+"648",2007,"ohio",6
+"649",2007,"oklahoma",4.5
+"650",2007,"oregon",5.6
+"651",2007,"pennsylvania",4.7
+"652",2007,"rhode island",5.5
+"653",2007,"south carolina",6.6
+"654",2007,"south dakota",3
+"655",2007,"tennessee",5.3
+"656",2007,"texas",4.5
+"657",2007,"utah",3.2
+"658",2007,"vermont",4
+"659",2007,"virginia",3.5
+"660",2007,"washington",4.8
+"661",2007,"west virginia",4.9
+"662",2007,"wisconsin",5
+"663",2007,"wyoming",3.1
+"664",2008,"alabama",6.7
+"665",2008,"alaska",7.5
+"666",2008,"arizona",6.9
+"667",2008,"arkansas",6.2
+"668",2008,"california",9.3
+"669",2008,"colorado",6.1
+"670",2008,"connecticut",7.1
+"671",2008,"delaware",6.2
+"672",2008,"district of columbia",8.8
+"673",2008,"florida",8.1
+"674",2008,"georgia",8.1
+"675",2008,"hawaii",5.5
+"676",2008,"idaho",6.4
+"677",2008,"illinois",7.6
+"678",2008,"indiana",8.2
+"679",2008,"iowa",4.6
+"680",2008,"kansas",5.2
+"681",2008,"kentucky",7.8
+"682",2008,"louisiana",5.9
+"683",2008,"maine",7
+"684",2008,"maryland",5.8
+"685",2008,"massachusetts",6.9
+"686",2008,"michigan",10.6
+"687",2008,"minnesota",6.9
+"688",2008,"mississippi",8
+"689",2008,"missouri",7.3
+"690",2008,"montana",5.4
+"691",2008,"nebraska",4
+"692",2008,"nevada",9.1
+"693",2008,"new hampshire",4.6
+"694",2008,"new jersey",7.1
+"695",2008,"new mexico",4.9
+"696",2008,"new york",7
+"697",2008,"north carolina",8.7
+"698",2008,"north dakota",3.5
+"699",2008,"ohio",7.8
+"700",2008,"oklahoma",4.9
+"701",2008,"oregon",9
+"702",2008,"pennsylvania",6.7
+"703",2008,"rhode island",10
+"704",2008,"south carolina",9.5
+"705",2008,"south dakota",3.9
+"706",2008,"tennessee",7.9
+"707",2008,"texas",6
+"708",2008,"utah",4.3
+"709",2008,"vermont",6.4
+"710",2008,"virginia",5.4
+"711",2008,"washington",7.1
+"712",2008,"west virginia",4.9
+"713",2008,"wisconsin",6.2
+"714",2008,"wyoming",3.4
+"715",2009,"alabama",11
+"716",2009,"alaska",8.8
+"717",2009,"arizona",9.1
+"718",2009,"arkansas",7.7
+"719",2009,"california",12.4
+"720",2009,"colorado",7.5
+"721",2009,"connecticut",8.9
+"722",2009,"delaware",9
+"723",2009,"district of columbia",12.1
+"724",2009,"florida",11.8
+"725",2009,"georgia",10.3
+"726",2009,"hawaii",6.9
+"727",2009,"idaho",9.1
+"728",2009,"illinois",11.1
+"729",2009,"indiana",9.9
+"730",2009,"iowa",6.6
+"731",2009,"kansas",6.6
+"732",2009,"kentucky",10.7
+"733",2009,"louisiana",7.5
+"734",2009,"maine",8.3
+"735",2009,"maryland",7.5
+"736",2009,"massachusetts",9.4
+"737",2009,"michigan",14.6
+"738",2009,"minnesota",7.4
+"739",2009,"mississippi",10.6
+"740",2009,"missouri",9.6
+"741",2009,"montana",6.7
+"742",2009,"nebraska",4.7
+"743",2009,"nevada",13
+"744",2009,"new hampshire",7
+"745",2009,"new jersey",10.1
+"746",2009,"new mexico",8.3
+"747",2009,"new york",9
+"748",2009,"north carolina",11.2
+"749",2009,"north dakota",4.4
+"750",2009,"ohio",10.9
+"751",2009,"oklahoma",6.6
+"752",2009,"oregon",11
+"753",2009,"pennsylvania",8.9
+"754",2009,"rhode island",12.9
+"755",2009,"south carolina",12.6
+"756",2009,"south dakota",4.7
+"757",2009,"tennessee",10.9
+"758",2009,"texas",8.3
+"759",2009,"utah",6.7
+"760",2009,"vermont",6.9
+"761",2009,"virginia",6.9
+"762",2009,"washington",9.5
+"763",2009,"west virginia",9.1
+"764",2009,"wisconsin",8.7
+"765",2009,"wyoming",7.5
+"766",2010,"alabama",9.1
+"767",2010,"alaska",8.1
+"768",2010,"arizona",9.4
+"769",2010,"arkansas",7.9
+"770",2010,"california",12.5
+"771",2010,"colorado",8.8
+"772",2010,"connecticut",9
+"773",2010,"delaware",8.5
+"774",2010,"district of columbia",9.7
+"775",2010,"florida",12
+"776",2010,"georgia",10.2
+"777",2010,"hawaii",6.4
+"778",2010,"idaho",9.5
+"779",2010,"illinois",9.3
+"780",2010,"indiana",9.5
+"781",2010,"iowa",6.3
+"782",2010,"kansas",6.8
+"783",2010,"kentucky",10.3
+"784",2010,"louisiana",8
+"785",2010,"maine",7.3
+"786",2010,"maryland",7.4
+"787",2010,"massachusetts",8.2
+"788",2010,"michigan",11.7
+"789",2010,"minnesota",7
+"790",2010,"mississippi",10.1
+"791",2010,"missouri",9.5
+"792",2010,"montana",7.2
+"793",2010,"nebraska",4.4
+"794",2010,"nevada",14.5
+"795",2010,"new hampshire",5.5
+"796",2010,"new jersey",9.1
+"797",2010,"new mexico",8.5
+"798",2010,"new york",8.2
+"799",2010,"north carolina",9.8
+"800",2010,"north dakota",3.8
+"801",2010,"ohio",9.6
+"802",2010,"oklahoma",6.8
+"803",2010,"oregon",10.6
+"804",2010,"pennsylvania",8.5
+"805",2010,"rhode island",11.5
+"806",2010,"south carolina",10.7
+"807",2010,"south dakota",4.6
+"808",2010,"tennessee",9.4
+"809",2010,"texas",8.3
+"810",2010,"utah",7.5
+"811",2010,"vermont",5.8
+"812",2010,"virginia",6.7
+"813",2010,"washington",9.3
+"814",2010,"west virginia",9.6
+"815",2010,"wisconsin",7.5
+"816",2010,"wyoming",6.4
+"817",2011,"alabama",8.1
+"818",2011,"alaska",7.3
+"819",2011,"arizona",8.7
+"820",2011,"arkansas",7.7
+"821",2011,"california",11.1
+"822",2011,"colorado",7.9
+"823",2011,"connecticut",8.2
+"824",2011,"delaware",7.4
+"825",2011,"district of columbia",10.4
+"826",2011,"florida",9.9
+"827",2011,"georgia",9.7
+"828",2011,"hawaii",6.6
+"829",2011,"idaho",8.4
+"830",2011,"illinois",9.8
+"831",2011,"indiana",9
+"832",2011,"iowa",5.6
+"833",2011,"kansas",6.3
+"834",2011,"kentucky",9.1
+"835",2011,"louisiana",6.8
+"836",2011,"maine",7
+"837",2011,"maryland",6.7
+"838",2011,"massachusetts",6.8
+"839",2011,"michigan",9.3
+"840",2011,"minnesota",5.7
+"841",2011,"mississippi",10.4
+"842",2011,"missouri",8
+"843",2011,"montana",6.8
+"844",2011,"nebraska",4.1
+"845",2011,"nevada",12.6
+"846",2011,"new hampshire",5.1
+"847",2011,"new jersey",9
+"848",2011,"new mexico",6.6
+"849",2011,"new york",8
+"850",2011,"north carolina",9.9
+"851",2011,"north dakota",3.3
+"852",2011,"ohio",8.1
+"853",2011,"oklahoma",6.1
+"854",2011,"oregon",8.9
+"855",2011,"pennsylvania",7.6
+"856",2011,"rhode island",10.8
+"857",2011,"south carolina",9.5
+"858",2011,"south dakota",4.2
+"859",2011,"tennessee",8.7
+"860",2011,"texas",7.8
+"861",2011,"utah",6
+"862",2011,"vermont",5.1
+"863",2011,"virginia",6.2
+"864",2011,"washington",8.5
+"865",2011,"west virginia",7.9
+"866",2011,"wisconsin",7.1
+"867",2011,"wyoming",5.8
+"868",2012,"alabama",7.1
+"869",2012,"alaska",6.6
+"870",2012,"arizona",7.9
+"871",2012,"arkansas",7.1
+"872",2012,"california",9.8
+"873",2012,"colorado",7.6
+"874",2012,"connecticut",8.6
+"875",2012,"delaware",6.9
+"876",2012,"district of columbia",8.5
+"877",2012,"florida",8
+"878",2012,"georgia",8.6
+"879",2012,"hawaii",5.2
+"880",2012,"idaho",6.6
+"881",2012,"illinois",8.7
+"882",2012,"indiana",8.2
+"883",2012,"iowa",4.9
+"884",2012,"kansas",5.4
+"885",2012,"kentucky",8.1
+"886",2012,"louisiana",5.5
+"887",2012,"maine",7.3
+"888",2012,"maryland",6.6
+"889",2012,"massachusetts",6.7
+"890",2012,"michigan",8.9
+"891",2012,"minnesota",5.5
+"892",2012,"mississippi",8.6
+"893",2012,"missouri",6.7
+"894",2012,"montana",5.7
+"895",2012,"nebraska",3.7
+"896",2012,"nevada",10.2
+"897",2012,"new hampshire",5.7
+"898",2012,"new jersey",9.6
+"899",2012,"new mexico",6.4
+"900",2012,"new york",8.2
+"901",2012,"north carolina",9.2
+"902",2012,"north dakota",3.2
+"903",2012,"ohio",6.7
+"904",2012,"oklahoma",5.1
+"905",2012,"oregon",8.4
+"906",2012,"pennsylvania",7.9
+"907",2012,"rhode island",10.2
+"908",2012,"south carolina",8.4
+"909",2012,"south dakota",4.4
+"910",2012,"tennessee",7.6
+"911",2012,"texas",6.1
+"912",2012,"utah",5.2
+"913",2012,"vermont",5.1
+"914",2012,"virginia",5.5
+"915",2012,"washington",7.6
+"916",2012,"west virginia",7.5
+"917",2012,"wisconsin",6.6
+"918",2012,"wyoming",4.9
+"919",2013,"alabama",6.1
+"920",2013,"alaska",6.4
+"921",2013,"arizona",7.6
+"922",2013,"arkansas",7.4
+"923",2013,"california",8.3
+"924",2013,"colorado",6.2
+"925",2013,"connecticut",7.4
+"926",2013,"delaware",6.2
+"927",2013,"district of columbia",8.1
+"928",2013,"florida",6.2
+"929",2013,"georgia",7.4
+"930",2013,"hawaii",4.5
+"931",2013,"idaho",5.7
+"932",2013,"illinois",8.6
+"933",2013,"indiana",6.9
+"934",2013,"iowa",4.2
+"935",2013,"kansas",4.9
+"936",2013,"kentucky",8
+"937",2013,"louisiana",5.7
+"938",2013,"maine",6.2
+"939",2013,"maryland",6.1
+"940",2013,"massachusetts",7
+"941",2013,"michigan",8.4
+"942",2013,"minnesota",4.6
+"943",2013,"mississippi",8
+"944",2013,"missouri",5.9
+"945",2013,"montana",5.2
+"946",2013,"nebraska",3.6
+"947",2013,"nevada",8.8
+"948",2013,"new hampshire",5.1
+"949",2013,"new jersey",7.3
+"950",2013,"new mexico",6.4
+"951",2013,"new york",7.1
+"952",2013,"north carolina",6.9
+"953",2013,"north dakota",2.6
+"954",2013,"ohio",7.2
+"955",2013,"oklahoma",5.4
+"956",2013,"oregon",7
+"957",2013,"pennsylvania",6.9
+"958",2013,"rhode island",9.1
+"959",2013,"south carolina",6.6
+"960",2013,"south dakota",3.6
+"961",2013,"tennessee",7.8
+"962",2013,"texas",6
+"963",2013,"utah",4.1
+"964",2013,"vermont",4.2
+"965",2013,"virginia",5.2
+"966",2013,"washington",6.6
+"967",2013,"west virginia",5.9
+"968",2013,"wisconsin",6.2
+"969",2013,"wyoming",4.4
+"970",2014,"alabama",5.7
+"971",2014,"alaska",6.3
+"972",2014,"arizona",6.7
+"973",2014,"arkansas",5.7
+"974",2014,"california",7
+"975",2014,"colorado",4
+"976",2014,"connecticut",6.4
+"977",2014,"delaware",5.4
+"978",2014,"district of columbia",7.3
+"979",2014,"florida",5.6
+"980",2014,"georgia",6.9
+"981",2014,"hawaii",4
+"982",2014,"idaho",3.7
+"983",2014,"illinois",6.2
+"984",2014,"indiana",5.8
+"985",2014,"iowa",4.1
+"986",2014,"kansas",4.2
+"987",2014,"kentucky",5.7
+"988",2014,"louisiana",6.7
+"989",2014,"maine",5.5
+"990",2014,"maryland",5.5
+"991",2014,"massachusetts",5.5
+"992",2014,"michigan",6.3
+"993",2014,"minnesota",3.6
+"994",2014,"mississippi",7.2
+"995",2014,"missouri",5.4
+"996",2014,"montana",4.2
+"997",2014,"nebraska",2.9
+"998",2014,"nevada",6.8
+"999",2014,"new hampshire",4
+"1000",2014,"new jersey",6.2
+"1001",2014,"new mexico",6.1
+"1002",2014,"new york",5.8
+"1003",2014,"north carolina",5.5
+"1004",2014,"north dakota",2.8
+"1005",2014,"ohio",4.8
+"1006",2014,"oklahoma",4.2
+"1007",2014,"oregon",6.7
+"1008",2014,"pennsylvania",4.8
+"1009",2014,"rhode island",6.8
+"1010",2014,"south carolina",6.5
+"1011",2014,"south dakota",3.3
+"1012",2014,"tennessee",6.6
+"1013",2014,"texas",4.6
+"1014",2014,"utah",3.5
+"1015",2014,"vermont",4.2
+"1016",2014,"virginia",4.8
+"1017",2014,"washington",6.3
+"1018",2014,"west virginia",6
+"1019",2014,"wisconsin",5.2
+"1020",2014,"wyoming",4.2
+"1021",2015,"alabama",6.2
+"1022",2015,"alaska",6.5
+"1023",2015,"arizona",5.7999
+"1024",2015,"arkansas",4.7999
+"1025",2015,"california",5.7999
+"1026",2015,"colorado",3.5
+"1027",2015,"connecticut",5.2
+"1028",2015,"delaware",5
+"1029",2015,"district of columbia",6.5999
+"1030",2015,"florida",5
+"1031",2015,"georgia",5.5
+"1032",2015,"hawaii",3.2
+"1033",2015,"idaho",3.8999
+"1034",2015,"illinois",5.9
+"1035",2015,"indiana",4.4
+"1036",2015,"iowa",3.3999
+"1037",2015,"kansas",3.8999
+"1038",2015,"kentucky",5.2999
+"1039",2015,"louisiana",6.0999
+"1040",2015,"maine",4
+"1041",2015,"maryland",5.0999
+"1042",2015,"massachusetts",4.7
+"1043",2015,"michigan",5.0999
+"1044",2015,"minnesota",3.5
+"1045",2015,"mississippi",6.4
+"1046",2015,"missouri",4.4
+"1047",2015,"montana",4
+"1048",2015,"nebraska",2.8999
+"1049",2015,"nevada",6.4
+"1050",2015,"new hampshire",3.1
+"1051",2015,"new jersey",5.0999
+"1052",2015,"new mexico",6.7
+"1053",2015,"new york",4.7999
+"1054",2015,"north carolina",5.5999
+"1055",2015,"north dakota",2.7
+"1056",2015,"ohio",4.7
+"1057",2015,"oklahoma",4.0999
+"1058",2015,"oregon",5.4
+"1059",2015,"pennsylvania",4.7999
+"1060",2015,"rhode island",5.0999
+"1061",2015,"south carolina",5.5
+"1062",2015,"south dakota",2.8999
+"1063",2015,"tennessee",5.5999
+"1064",2015,"texas",4.7
+"1065",2015,"utah",3.5
+"1066",2015,"vermont",3.6
+"1067",2015,"virginia",4.2
+"1068",2015,"washington",5.5
+"1069",2015,"west virginia",6.2999
+"1070",2015,"wisconsin",4.2999
+"1071",2015,"wyoming",4.2999
+"1072",2016,"alabama",6.2
+"1073",2016,"alaska",6.7
+"1074",2016,"arizona",4.7999
+"1075",2016,"arkansas",3.8999
+"1076",2016,"california",5.2
+"1077",2016,"colorado",3
+"1078",2016,"connecticut",4.4
+"1079",2016,"delaware",4.2999
+"1080",2016,"district of columbia",5.7999
+"1081",2016,"florida",4.9
+"1082",2016,"georgia",5.4
+"1083",2016,"hawaii",2.8999
+"1084",2016,"idaho",3.7
+"1085",2016,"illinois",5.7
+"1086",2016,"indiana",4
+"1087",2016,"iowa",3.6
+"1088",2016,"kansas",4.2
+"1089",2016,"kentucky",4.7999
+"1090",2016,"louisiana",6.0999
+"1091",2016,"maine",3.7999
+"1092",2016,"maryland",4.2
+"1093",2016,"massachusetts",2.7999
+"1094",2016,"michigan",5
+"1095",2016,"minnesota",3.8999
+"1096",2016,"mississippi",5.5999
+"1097",2016,"missouri",4.4
+"1098",2016,"montana",4
+"1099",2016,"nebraska",3.3999
+"1100",2016,"nevada",5.0999
+"1101",2016,"new hampshire",2.6
+"1102",2016,"new jersey",4.7
+"1103",2016,"new mexico",6.5999
+"1104",2016,"new york",4.9
+"1105",2016,"north carolina",5.0999
+"1106",2016,"north dakota",3
+"1107",2016,"ohio",4.9
+"1108",2016,"oklahoma",5
+"1109",2016,"oregon",4.5999
+"1110",2016,"pennsylvania",5.5999
+"1111",2016,"rhode island",5
+"1112",2016,"south carolina",4.2999
+"1113",2016,"south dakota",2.7999
+"1114",2016,"tennessee",4.9
+"1115",2016,"texas",4.5999
+"1116",2016,"utah",3.1
+"1117",2016,"vermont",3.1
+"1118",2016,"virginia",4.0999
+"1119",2016,"washington",5.2
+"1120",2016,"west virginia",5.9
+"1121",2016,"wisconsin",4
+"1122",2016,"wyoming",4.7999
+"1123",2017,"alabama",3.5
+"1124",2017,"alaska",7.2999
+"1125",2017,"arizona",4.5
+"1126",2017,"arkansas",3.7
+"1127",2017,"california",4.2999
+"1128",2017,"colorado",3.1
+"1129",2017,"connecticut",4.5999
+"1130",2017,"delaware",4.5999
+"1131",2017,"district of columbia",6
+"1132",2017,"florida",3.7
+"1133",2017,"georgia",4.4
+"1134",2017,"hawaii",2
+"1135",2017,"idaho",2.8999
+"1136",2017,"illinois",4.7999
+"1137",2017,"indiana",3.3999
+"1138",2017,"iowa",2.7999
+"1139",2017,"kansas",3.3999
+"1140",2017,"kentucky",4.4
+"1141",2017,"louisiana",4.5999
+"1142",2017,"maine",3
+"1143",2017,"maryland",4
+"1144",2017,"massachusetts",3.5
+"1145",2017,"michigan",4.7
+"1146",2017,"minnesota",3.1
+"1147",2017,"mississippi",4.5999
+"1148",2017,"missouri",3.5
+"1149",2017,"montana",4.0999
+"1150",2017,"nebraska",2.7
+"1151",2017,"nevada",5
+"1152",2017,"new hampshire",2.6
+"1153",2017,"new jersey",5
+"1154",2017,"new mexico",6
+"1155",2017,"new york",4.5999
+"1156",2017,"north carolina",4.5
+"1157",2017,"north dakota",2.6
+"1158",2017,"ohio",4.7
+"1159",2017,"oklahoma",4.0999
+"1160",2017,"oregon",4.0999
+"1161",2017,"pennsylvania",4.7
+"1162",2017,"rhode island",4.4
+"1163",2017,"south carolina",4.0999
+"1164",2017,"south dakota",3.5
+"1165",2017,"tennessee",3.2
+"1166",2017,"texas",3.8999
+"1167",2017,"utah",3.1
+"1168",2017,"vermont",2.7999
+"1169",2017,"virginia",3.7
+"1170",2017,"washington",4.5
+"1171",2017,"west virginia",5.5
+"1172",2017,"wisconsin",3
+"1173",2017,"wyoming",4.2
+"1174",2018,"alabama",3.8999
+"1175",2018,"alaska",6.2999
+"1176",2018,"arizona",4.7999
+"1177",2018,"arkansas",3.6
+"1178",2018,"california",4.2
+"1179",2018,"colorado",3.5
+"1180",2018,"connecticut",4
+"1181",2018,"delaware",3.7
+"1182",2018,"district of columbia",5.5
+"1183",2018,"florida",3.2999
+"1184",2018,"georgia",3.6
+"1185",2018,"hawaii",2.5
+"1186",2018,"idaho",2.6
+"1187",2018,"illinois",4.2999
+"1188",2018,"indiana",3.6
+"1189",2018,"iowa",2.3999
+"1190",2018,"kansas",3.2999
+"1191",2018,"kentucky",4.4
+"1192",2018,"louisiana",4.9
+"1193",2018,"maine",3.3999
+"1194",2018,"maryland",3.8999
+"1195",2018,"massachusetts",3.2999
+"1196",2018,"michigan",4
+"1197",2018,"minnesota",2.7999
+"1198",2018,"mississippi",4.7
+"1199",2018,"missouri",3.1
+"1200",2018,"montana",3.7
+"1201",2018,"nebraska",2.7999
+"1202",2018,"nevada",4.4
+"1203",2018,"new hampshire",2.5
+"1204",2018,"new jersey",4
+"1205",2018,"new mexico",4.7
+"1206",2018,"new york",3.8999
+"1207",2018,"north carolina",3.6
+"1208",2018,"north dakota",2.7
+"1209",2018,"ohio",4.5999
+"1210",2018,"oklahoma",3.2
+"1211",2018,"oregon",4.0999
+"1212",2018,"pennsylvania",4.2
+"1213",2018,"rhode island",3.8999
+"1214",2018,"south carolina",3.2999
+"1215",2018,"south dakota",2.8999
+"1216",2018,"tennessee",3.6
+"1217",2018,"texas",3.7
+"1218",2018,"utah",3.2
+"1219",2018,"vermont",2.7
+"1220",2018,"virginia",2.7999
+"1221",2018,"washington",4.2999
+"1222",2018,"west virginia",5.0999
+"1223",2018,"wisconsin",3
+"1224",2018,"wyoming",4.0999

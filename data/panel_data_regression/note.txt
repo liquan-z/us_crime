@@ -1,0 +1,12 @@
+this regression includes 50 states and DC(for data collecting purpose)
+'regress_new' folder uses the data folder which is marked by '+'
+And this is what we going to talk about in presentation.
+
+population density is calculated using  population of each year (US census data, same as FBI's using)
+                   divided by area(2010 US census land area by states for year 2010-year 2018; 
+                   2000 US census land area by states for year 2000-year 2009;
+                   1990 US census land area by states for year 1995-year 1999).
+meidum age(medium_age), police employment rate(police_emp), population density(popu_density), poverty rate(poverty_rate),
+  unemployment rate(unemp_rate) is used in new regreesion(code:new gress folder)
+
+After open the folders, there's a source file that tells where the data is from.

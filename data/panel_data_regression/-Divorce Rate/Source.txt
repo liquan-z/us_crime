@@ -1,0 +1,3 @@
+Data taken by the CDC.
+Data on divorce rate by state for the years 1990, 1995, and 1999-2019. 
+Link: https://www.cdc.gov/nchs/nvss/marriage-divorce.htm?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnchs%2Fmardiv.htm

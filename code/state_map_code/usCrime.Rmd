@@ -1,0 +1,457 @@
+---
+title: "Crime Statistics Using FBI's U.S Data"
+output: 
+  flexdashboard::flex_dashboard:
+  orientation: columns
+  vertical_layout: fill
+  theme: yeti
+runtime: shiny
+---
+```{r echo=F}
+#Contributors: Ruofan Chen, Liquan Zhong, Sara Rahim
+``` 
+
+```{r include=FALSE}
+library(flexdashboard)
+library(shiny)
+library(tidyverse)
+library(plotly)
+library(ggplot2)
+library(sp)
+library(dplyr)
+library(highcharter)
+library(viridisLite)
+library(crosstalk)
+```
+
+
+Mapping
+===================================== 
+```{r include = FALSE}
+crimeDat <- readRDS("../../code/state_map_code/usacrimeDat.rds") 
+crimeDat <- tidyr::gather(crimeDat,Crime,rate, assault, burglary,`larceny theft`,murder,rape,robbery,`vehicle theft`)
+myCrime <- as.character(unique(crimeDat$Crime))
+thm <- 
+  highcharter::hc_theme(
+    chart = list(
+      backgroundColor = "transparent",
+      style = list(fontFamily = "Source Sans Pro")
+    ),
+    xAxis = list(
+      gridLineWidth = 1
+    )
+  )
+```
+Input{.sidebar}
+----------------------------------------------------------------
+### User Input
+
+```{r}
+shiny::selectInput("selectedCrime", 
+                         label = "Choose a crime to display",
+                         choices = myCrime, 
+                         selected = myCrime[1])
+shiny::sliderInput("myYears","Crime Year",
+                         min = 1995,
+                         max = 2019,
+                         value = 2019)
+```
+*NOTE: Map contains 50 States; Rank Bar Plot contains 52 regions(including PR and DC).
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Map.
+
+```{r}
+dataInput <- shiny::reactive({
+    subset(crimeDat,
+           Year==input$myYears & 
+             Crime==input$selectedCrime)
+  })
+highcharter::renderHighchart({             
+highchart() %>%
+  hc_title(text = "Crime Rates by US State") %>%
+  hc_add_series_map(usgeojson, dataInput(), name = "Crime Rate",
+                    value = "rate", joinBy = c("woename", "State"),
+                    dataLabels = list(enabled = TRUE,
+                                      format = '{point.properties.postalcode}')) %>%
+  hc_legend(valueDecimals = 0, valueSuffix = "%") %>%
+  hc_mapNavigation(enabled = TRUE) %>%
+  hc_add_theme(thm)
+})
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Rank Bar Plot.{data-width=350}
+```{r include = FALSE}
+Trend <- readRDS("../../code/state_map_code/crime1995-2019.rds") 
+myState <- as.character(unique(Trend$state))
+# make crime types as column
+Trend1 <- Trend %>% spread(Crime,rate)
+
+#Delete puerto rico
+#Trend1 <- Trend1 %>%
+ # filter(state != 'puerto rico')
+Trend1$Year <- as.factor(Trend1$Year)
+names(Trend1) <- c("Year","state","population","report type","assault"      
+                      ,"burglary","larceny theft","murder","rape","robbery"      
+                      ,"vehicle theft")
+
+```
+```{r}
+usall <- tidyr::gather(Trend1,Crime,rate, assault, burglary,`larceny theft`,murder,rape,robbery,`vehicle theft`)
+
+dfInput <- shiny::reactive({
+    subset(usall,
+           Year==input$myYears & 
+             Crime==input$selectedCrime)
+  })
+```
+```{r}
+shiny::renderPlot({
+    ggplot(dfInput(), aes(reorder(state,rate),rate))+ 
+      geom_point(color="steelblue", size=4)+
+      coord_flip() + theme_bw() 
+    
+  })
+```
+
+
+
+
+
+
+
+
+
+
+
+Barplot Animation by Area
+===================================== 
+```{r include = FALSE}
+library(lubridate)
+library(gifski)
+library(graphics)
+library(RColorBrewer)
+# read dataset metro
+metro <- readRDS("../../code/state_map_code/metro.rds") 
+table(metro$state)
+metro <- select(metro,year,state,crime_type,number,area_n)
+mCrime <- as.character(unique(metro$crime_type))
+mState <- as.character(unique(metro$state))
+```
+Input{.sidebar}
+----------------------------------------------------------------
+### User Input
+
+```{r}
+shiny::selectInput("m_State", 
+                         label = "Choose a State to display",
+                         choices = mState, 
+                         selected = mState[1])
+shiny::selectInput("m_Crime", 
+                         label = "Choose a crime to display",
+                         choices = mCrime, 
+                         selected = mCrime[1])
+```
+*NOTE: The metropolitan and non-metropolitan area dataset for DC, NJ, RI, HI and PR are missing in the original data.
+
+
+Column{.tabset}
+----------------------------------------------------------------
+
+### Crime Rates by Area for 2010-2019 
+
+```{r }
+k <- shiny::reactive({
+    subset(metro,
+           state==input$m_State & 
+           crime_type==input$m_Crime)
+  })
+shiny::renderImage({
+    p <- ggplot(k(),aes(x = area_n, y = number)) + 
+      geom_bar(stat = 'identity', width = 0.5,fill=brewer.pal(7,"Blues")[5]) + 
+      theme_minimal() + theme(axis.text.x = element_text(angle = -30, vjust = 1, hjust = 0, size = 11)) +
+      scale_y_continuous(labels = scales::comma) + labs(title = "", x = "", y = "Total Count") +
+      gganimate::transition_states(year, transition_length = 1, state_length = 1) + 
+      labs(title = "Year: {closest_state}")
+    
+    
+  
+    gganimate::anim_save("outfile.gif",gganimate::animate(p, duration = 10, fps = 20, width = 520, height = 520, ))
+    
+ 
+    # Return a list containing the filename and alt text
+    list(src = "outfile.gif",
+         contentType = 'image/gif')
+         },deleteFile = TRUE)
+#gganimate::anim_save("output.gif")deleteFile = TRUE
+```
+
+
+### Top Regions with Highest Crime Rates 
+```{r}
+rank <- read.csv("../../code/state_map_code/rank.csv")
+library(DT)
+DT::datatable(rank, options = list(pageLength = 8))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+State Trend 
+===================================== 
+
+Input{.sidebar}
+----------------------------------------------------------------
+### User Input
+
+```{r}
+shiny::selectInput("selectedState", 
+                         label = "Choose a State to display",
+                         choices = myState, 
+                         selected = myState[1])
+```
+*NOTE: Beginning from 2013, we replace the Forcible Rape with the revised definition of Rape. (The revised definition expands rape to include both male and female victims and offenders, and reflects the various forms of sexual penetration understood to be rape, especially nonconsenting acts of sodomy, and sexual assaults with objects.)
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Crime Rates by Crime Type, State, and Year
+
+```{r}
+z <- shiny::reactive({
+    subset(Trend1,
+             state==input$selectedState)
+  })
+highcharter::renderHighchart({
+    
+  highchart() %>% hc_xAxis(categories = z()$Year) %>% 
+  hc_add_series(type = 'line', data = z(), hcaes(x = Year, y = assault), name = 'Aggravated Assault') %>% 
+  hc_add_series(type = 'line', data = z(), hcaes(x = Year, y = burglary),
+                name = 'Burglary') %>%
+  hc_add_series(type = 'line', data = z(), hcaes(x = Year, y = `larceny theft`), name = 'Larceny Theft') %>% 
+  hc_add_series(type = 'line', data = z(), hcaes(x = Year, y = murder),
+                name = 'Murder and non-negligent manslaughte') %>%
+  hc_add_series(type = 'line', data = z(), hcaes(x = Year, y = rape), name = 'Forcible Rape') %>% 
+  hc_add_series(type = 'line', data = z(), hcaes(x = Year, y = robbery),
+                name = 'Robbery') %>%
+  hc_add_series(type = 'line', data = z(), hcaes(x = Year, y = `vehicle theft`),
+                name = 'Motor Vehicle Theft') 
+  
+  })
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Violent Crime BoxPlot
+
+```{r}
+plotly::renderPlotly({
+   fig <- plot_ly(type = 'box')
+   fig <- fig %>% add_boxplot(y = z()$assault, jitter = 0.3, pointpos = -1.8, 
+              marker = list(color = 'rgb(7,40,89)'),
+              line = list(color = 'rgb(7,40,89)'),
+              name = "Assault")
+   fig <- fig %>% add_boxplot(y = z()$robbery, name = "Robbery", boxpoints = FALSE,
+              marker = list(color = 'rgb(9,56,125)'),
+              line = list(color = 'rgb(9,56,125)'))
+   fig <- fig %>% add_boxplot(y = z()$rape, name = "Rape", 
+              marker = list(color = 'rgb(8,81,156)',
+                            outliercolor = 'rgba(219, 64, 82, 0.6)',
+                            line = list(outliercolor = 'rgba(219, 64, 82, 1.0)',
+                                        outlierwidth = 2)),
+              line = list(color = 'rgb(8,81,156)'))
+   fig <- fig %>% add_boxplot(y = z()$murder, name = "Murder", 
+              marker = list(color = 'rgb(107,174,214)'),
+              line = list(color = 'rgb(107,174,214)'))
+   fig <- fig %>% layout(title = "Violent Crime")
+   fig
+})
+```
+
+### Property Crime BoxPlot
+
+```{r}
+plotly::renderPlotly({
+   fig <- plot_ly(type = 'box')
+   fig <- fig %>% add_boxplot(y = z()$`vehicle theft`, jitter = 0.3, pointpos = -1.8, 
+              marker = list(color = 'rgb(7,40,89)'),
+              line = list(color = 'rgb(7,40,89)'),
+              name = 'Vehicle')
+   fig <- fig %>% add_boxplot(y = z()$burglary, name = "Burglary", boxpoints = FALSE,
+              marker = list(color = 'rgb(9,56,125)'),
+              line = list(color = 'rgb(9,56,125)'))
+   fig <- fig %>% add_boxplot(y = z()$`larceny theft`, name = 'Larceny', 
+              marker = list(color = 'rgb(8,81,156)',
+                            outliercolor = 'rgba(219, 64, 82, 0.6)',
+                            line = list(outliercolor = 'rgba(219, 64, 82, 1.0)',
+                                        outlierwidth = 2)),
+              line = list(color = 'rgb(8,81,156)'))
+   fig <- fig %>% layout(title = "Property Crime")
+   fig
+})
+```
+
+
+
+
+
+
+
+
+
+
+Clustering 
+=================
+```{r include = FALSE}
+library("RColorBrewer")
+cluster <- read.csv("../../code/state_map_code/sample_for_cluster.csv")
+cluster$cluster_number <- as.ordered(cluster$cluster_number)
+slope <- 2.666051223553066e-04
+cluster$size <- sqrt(cluster$population * slope)
+cluster <- cluster[order(cluster$year, cluster$region,cluster$cluster_number),]
+###########Clustering Map Dataset Preparation
+#Delete district of columbia
+cluster_map <- cluster %>%
+  filter(region != 'district of columbia')
+#Delete puerto rico
+cluster_map <- cluster_map %>%
+  filter(region != 'puerto rico')
+#table(cluster_map$region)
+STATES <-c("AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", 
+"HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", 
+"MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", 
+"NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", 
+"UT", "VT", "VA", "WA", "WV", "WI", "WY")
+State <- rep(STATES,15)
+# Combine
+cluster_map <- as.data.frame(cbind(cluster_map,State))
+#================
+nfactor = length(levels(cluster_map$cluster_number))
+#foo <- brewer.pal(n = nfactor,name = "Set1")
+foo <- c('#4AC6B7', '#1972A4', '#965F8A')#, '#FF7070', '#C61951','#E41A1C')
+#foo <- c("#E41A1C", "#377EB8", "#4DAF4A", "#984EA3", "#FF7F00", "#FFFF33")
+names(foo) = levels(cluster_map$cluster_number)
+
+Z_Breaks = function(n){
+CUTS = seq(0,1,length.out=n+1)
+rep(CUTS,ifelse(CUTS %in% 0:1,1,2))
+}
+
+colorScale <- data.frame(z=Z_Breaks(nfactor),
+col=rep(foo,each=2),stringsAsFactors=FALSE)
+cluster_map$test = as.numeric(cluster_map$cluster_number)
+```
+
+Input{.sidebar}
+----------------------------------------------------------------
+### User Input
+
+```{r}
+shiny::sliderInput("sYears","Choose a Year to display",
+                         min = 2005,
+                         max = 2019,
+                         value = 2017)
+```
+*NOTE: Bubble plot includes 52 regions; Clustering Map includes 50 States(without DC and PR).
+
+Column{.tabset}
+-----------------------------------------------
+### Clustering Map
+
+```{r}
+data_in <- shiny::reactive({
+       subset(cluster_map,year==input$sYears)
+  })
+
+plotly::renderPlotly({
+    plot_ly(
+  data = data_in(),
+  type = "choropleth",
+  locations = ~ State,
+  locationmode = "USA-states",
+  z = data_in()$test,
+  colorscale=colorScale,
+  colorbar=list(tickvals=1:nfactor, ticktext=names(foo))
+) %>%
+layout(title = 'Clustering Map by US States',geo = list(scope = "usa")) 
+
+    
+  })
+  
+```
+
+
+### Bubble Plot
+
+```{r}
+sample <- shiny::reactive({
+       subset(cluster,year==input$sYears)
+  })
+#==='#4AC6B7', '#1972A4', '#965F8A', '#FF7070', '#C61951'===#
+plotly::renderPlotly({
+  plot_ly(sample(), x = ~property_crime, y = ~violent_crime, color = ~cluster_number,size =~size, colors = foo,
+               type = 'scatter', mode = 'markers', sizes = c(min(sample()$size), max(sample()$size)),
+               marker = list(symbol = 'circle', sizemode = 'diameter',
+                             line = list(width = 2, color = '#FFFFFF')),
+               text = ~paste('State:', region, '<br>Violent Crime:', violent_crime, '<br>Property Crime:', property_crime, '<br>Population.:', population)) %>% 
+    layout(title = 'Violent Crime vs. Property Crime',
+                 xaxis = list(title = 'Property Crime (per 100,000 inhabitants)',
+                                   gridcolor = 'rgb(255, 255, 255)',
+                                   zerolinewidth = 1,
+                                   ticklen = 5,
+                                   gridwidth = 2),
+                 yaxis = list(title = 'Violent Crime (per 100,000 inhabitants)',
+                                   gridcolor = 'rgb(255, 255, 255)',
+                                   zerolinewidth = 1,
+                                   ticklen = 5,
+                                   gridwith = 2),
+                 paper_bgcolor = 'rgb(243, 243, 243)',
+                 plot_bgcolor = 'rgb(243, 243, 243)')
+   })
+```
+
+
+
+
+
+
+
+
+
+
+
+Organized Dataset
+===================================== 
+Column {.tabset}
+-----------------------------------------------------------------------
+
+### Table 1. {data-width=500}
+*Organized Dataset for State Total Rate per 100,000 inhabitants
+```{r}
+library(DT)
+DT::datatable(Trend1, options = list(pageLength = 10))
+```
+
+
+### Table 2. {data-width=500}
+*Organized Dataset for the specific area
+```{r}
+library(DT)
+DT::datatable(metro, options = list(pageLength = 10))
+```

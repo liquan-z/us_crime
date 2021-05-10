@@ -1,0 +1,13 @@
+name: usCrime
+title: usCrime
+username:
+account: liz19009
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3989146
+bundleId: 4488269
+url: https://liz19009.shinyapps.io/usCrime/
+when: 1618792092.82911
+lastSyncTime: 1618792092.82916
+asMultiple: TRUE
+asStatic: FALSE
